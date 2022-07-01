@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Название страницы</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<blockquote>
+    <table width="25%" border="1">
+        <tr>
+            <td align="right">Фото:</td>
+            <td align="center"><img th:src="@{img/avatar.png}" alt="avatar" width="100" height="100" align="center"></td>
+        </tr>
+        <tr>
+            <td align="right">Профессия:</td>
+            <td align="center">Программист JAVA</td>
+        </tr>
+        <tr>
+            <td align="right">Должность:</td>
+            <td align="center">Главный Инженер по разработке</td>
+        </tr>
+        <tr>
+            <td align="right">Место работы:</td>
+            <td align="center">Сбер</td>
+        </tr>
+        <tr>
+            <td align="right">Дата рождения:</td>
+            <td align="center">29.08.1981</td>
+        </tr>
+    </table>
+</blockquote>
+
+<address>
+    Адрес: г.Москва Хвалынский бульвар;
+</address>
+</body>
+</html>
